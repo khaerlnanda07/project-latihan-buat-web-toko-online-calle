@@ -136,7 +136,7 @@ https://github.com/khaerlnanda07/project-latihan-buat-web-toko-online-calle
 
 ## Credits
 
-Nama: Kherl Nanda  
+Nama: Khaerul Nanda  
 Mata Kuliah: Bahasa Indonesia  
 Tugas: Dokumentasi README  
 Tahun: 2026  
