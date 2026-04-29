@@ -1,0 +1,292 @@
+<!-- struktur html = copas dari bagian calle.html -->
+<!-- struktur product = atau copas di followmycode.id, session_69ddc7a107a4a, 144 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+<br>
+    <!-- Menu Header atau navbar -->
+  <div class="row">
+    <!-- logo calle tambahkan menu Helpers > Focus ring -->
+    <div class="col text-start">
+        <a href="calle.html">
+            <img src="https://d2kchovjbwl1tk.cloudfront.net/vendors/9549/assets/image/1738561992780-LOGO_CALLE_BLACK_PNG500x-8_resized512-png.webp" height="25">
+        </a>
+    </div>
+    <!-- boleh tambahkan menu Helpers > Focus ring -->
+    <div class="col text-center">
+      <button type="button" class="btn btn-light">CATALOG</button>
+      <button type="button" class="btn btn-light">COMMUNITY</button>
+      <button type="button" class="btn btn-light">ARCHIVES</button>
+      <button type="button" class="btn btn-light">ABOUT</button>      
+    </div>
+
+    <div class="col text-end">
+      <button type="button" class="btn btn-light"><img src="https://d2nvjoftj891ay.cloudfront.net/flags/id.svg" height="15"> IDR</button>
+      <button type="button" class="btn btn-light">CART</button>
+      <button type="button" class="btn btn-light"><i class="fa-regular fa-user"></i></button>
+    </div>
+
+  </div>
+<br>
+<!-- menu = Layout > Grid container nya aja dan col col-3 -->
+<div class="container">
+    <div class="row">
+        <div class="col col-3">
+
+            <!-- tampilan glass kaca mata = Forms → Input Group, dan fontawesome gambar searc -->
+            <div class="input-group mb-3">
+               <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+               <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <!-- tampilan filter dropdown = Components → Accordion & tampilan Check = Forms > Checks & radios -->
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Product Type
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <!-- tampilan Check = Forms > Checks & radios hapus yang strong -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    ALL Products
+                                </label>
+                            </div>
+                            <!-- tampilan Check = Forms > Checks & radio hapus yang strong -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                <label class="form-check-label" for="radioDefault2">
+                                    Featured Products
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- tampilan filter dropdown = Components → Accordion & tampilan Check = Forms > Checks & radios -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Availability
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="form-check">
+                                <!-- tampilan Check = Forms > Checks & radio hapus yang strong -->
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+                                <label class="form-check-label" for="radioDefault1">
+                                    ALL 
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <!-- tampilan Check = Forms > Checks & radio hapus yang strong -->
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                <label class="form-check-label" for="radioDefault2">
+                                    In Stock
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- tampilan filter dropdown = Components → Accordion & tampilan Check = Forms > Checks & radios -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Price
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <!-- tampilan Check = Forms > Checks & radio hapus yang strong -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                <label class="form-check-label" for="radioDefault2">
+                                    Under Rp 620,000
+                                </label>
+                            </div>
+                            <!-- tampilan Check = Forms > Checks & radio hapus yang strong -->
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                <label class="form-check-label" for="radioDefault2">
+                                    Rp 620,000 - Rp 1.200,000
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                <label class="form-check-label" for="radioDefault2">
+                                    Rp 1.200,000 - Rp 1.800,000
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2" checked>
+                                <label class="form-check-label" for="radioDefault2">
+                                    Rp 1.800,000 +
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <!-- tampilan filter dropdown = Components → Accordion & tampilan Check = Forms > Checks & radios -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Size
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                             <!-- tampilan filter Size = Components > Buttons, btn btn-outline-dark -->
+                            <button type="button" class="btn btn-outline-dark">S</button>
+                            <button type="button" class="btn btn-outline-dark">M</button>
+                            <button type="button" class="btn btn-outline-dark">L</button>
+                            <button type="button" class="btn btn-outline-dark">XL</button>
+                            <button type="button" class="btn btn-outline-dark">XLL</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Product Grid = Layout > Grid, col col-9 -->
+        <div class="col col-9">
+            <!-- tulisan ALL Product = Utilities → Flex Spacing (mb-3) dan <h4></h4> -->
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h4>ALL Product</h4>
+
+                <!-- dropdown-menu = Components > Dropdown -->
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>sort</b> : Featured
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button">Action</button></li>
+                        <li><button class="dropdown-item" type="button">Another action</button></li>
+                        <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Product Detail = Layout = Grid, row saja -->
+            <div class="row">
+                <!-- Product 1 = Layout = Grid, <div ="">, dan <span ="">, Content = images. <h6 class""</h6> -->
+                   <!-- Helpers = Focus Ring, product-link, text-dark = Utilities = colors,text,d-block -->
+                <div class="card col-md-4 mb-4">
+                    <a href="rinci_produk.html" class="product-link text-dark text-decoration-none d-block">
+                        <span class="badge bg-dark">SOLD OUT</span>
+                        <img src="https://d2kchovjbwl1tk.cloudfront.net/vendor/9549/product/1_1774842660481_resized512-jpg.webp" class="img-fluid">
+                        <h6 class="card-title">Washed Zip Hoodie</h6>
+                        <h6 class="card-title">Rp 679.000</h6>
+                    </a>
+                 </div>
+
+                <!-- Product 2 = Layout = Grid, <div ="">, dan <span ="">, Content = images. <h6 class""</h6> -->
+                   <!-- Helpers = Focus Ring, product-link, text-dark = Utilities = colors,text,d-block -->
+                <div class="card col-md-4 mb-4">
+                    <a href="rinci_produk.html" class="product-link text-dark text-decoration-none d-block">
+                        <span class="badge bg-dark">SOLD OUT</span>
+                        <img src="https://d2kchovjbwl1tk.cloudfront.net/vendor/9549/product/22_1774863652072_resized1024-jpg.webp" class="img-fluid">
+                        <h6 class="card-title">Arabic Rings</h6>
+                        <h6 class="card-title">Rp 299.000</h6>
+                    </a>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="card col-md-4 mb-4">
+                    <a href="rinci_produk.html" class="product-link text-dark text-decoration-none d-block">
+                        <span class="badge bg-dark">SOLD OUT</span>
+                        <img src="https://d2kchovjbwl1tk.cloudfront.net/vendor/9549/product/1_1774842539059_resized512-jpg.webp" class="img-fluid">
+                        <h6 class="card-title">Arabic Star Hoodie</h6>
+                        <h6 class="card-title">Rp 650.000</h6>
+                    </a>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="card col-md-4 mb-4">
+                    <a href="rinci_produk.html" class="product-link text-dark text-decoration-none d-block">
+                        <span class="badge bg-dark">SOLD OUT</span>
+                        <img src="https://d2kchovjbwl1tk.cloudfront.net/vendor/9549/product/1_1774842921819_resized1024-jpg.webp" class="img-fluid">
+                        <h6 class="card-title">Long Sleeve Black & White</h6>
+                        <h6 class="card-title">Rp 379.000</h6>
+                    </a>
+                 </div>
+
+                 <!-- Product 5 -->
+                <div class="card col-md-4 mb-4">
+                    <a href="rinci_produk.html" class="product-link text-dark text-decoration-none d-block">
+                        <span class="badge bg-dark">SOLD OUT</span>
+                        <img src="https://d2kchovjbwl1tk.cloudfront.net/vendor/9549/product/1_1774842968476_resized512-jpg.webp" class="img-fluid">
+                        <h6 class="card-title">Long Sleeve Red & White</h6>
+                        <h6 class="card-title">Rp 389.000</h6>
+                    </a>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="card col-md-4 mb-4">
+                    <a href="rinci_produk.html" class="product-link text-dark text-decoration-none d-block">
+                        <span class="badge bg-dark">SOLD OUT</span>
+                        <img src="https://d2kchovjbwl1tk.cloudfront.net/vendor/9549/product/1_1774842821802_resized512-jpg.webp" class="img-fluid">
+                        <h6 class="card-title">Double Sleeve Waffle</h6>
+                        <h6 class="card-title">Rp 349.000</h6>
+                    </a>
+                </div>
+
+            </div>    
+        </div>
+    </div>    
+</div>
+
+    <!-- Menu Footer = Layout > grid & Utilities > Background & Spacing py-5 -->
+    <div class="bg-dark text-white py-5">
+      <div class="container text-center">
+
+        <!-- Payment = Content > Typography mb-4 fw-bold -->
+        <h6 class="mb-4 fw-bold">Payment Method</h6>
+
+        <!-- logo Payment Method = Utilities → Flex Spacing (gap-4 mb-5") -->
+        <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 mb-5">
+          <img src="https://images.seeklogo.com/logo-png/39/1/dana-e-wallet-app-logo-png_seeklogo-399948.png" width="30">
+          <img src="https://images.seeklogo.com/logo-png/64/1/ovo-logo-png_seeklogo-644219.png" width="30">
+          <img src="https://images.seeklogo.com/logo-png/14/1/visa-logo-png_seeklogo-149698.png" width="30">
+          <img src="https://images.seeklogo.com/logo-png/13/1/tiki-jne-logo-png_seeklogo-139992.png" width="30">
+          <img src="https://images.seeklogo.com/logo-png/36/1/gopay-logo-png_seeklogo-369813.png" width="30">
+        </div>
+
+        <!-- Shipment Method = Typography mb-3 fw-bold  -->
+        <h6 class="mb-3 fw-bold">Shipment Method</h6>
+
+        <!-- logo Shipment Method = Utilities → Flex Spacing (gap-4 mb-5") -->
+        <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 mb-5">
+          <img src="https://images.seeklogo.com/logo-png/32/1/shopee-logo-png_seeklogo-326282.png" width="30">
+          <img src="https://images.seeklogo.com/logo-png/39/1/tokopedia-logo-png_seeklogo-399080.png" width="30">
+        </div>
+        
+        <!-- Follow Us = Typography mb-3 fw-bold -->
+        <h6 class="mb-3 fw-bold">Shipment Method</h6>
+
+        <!-- Follow Us = Utilities → Flex Spacing (gap-4 mb-5") -->
+        <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 mb-5">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
