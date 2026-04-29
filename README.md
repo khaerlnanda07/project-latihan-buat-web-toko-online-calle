@@ -5,7 +5,7 @@
 ![App Screenshot](./images/Screenshot%202026-04-29%20225758.png)
 
 
-![Status](https://img.shields.io/badge/status-selesai-brightgreen)
+![Status](https://img.shields.io/badge/status-berprogrest-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-web-blue)
 ![Language](https://img.shields.io/badge/language-HTML%20CSS%20JS-orange)
 
@@ -55,7 +55,7 @@ Untuk menjalankan website ini, dibutuhkan:
 ---
 
 ## Structure
-Website_Calle/
+project_latihan_buat_web_calle/
 │
 ├── index.html
 ├── calle.html
